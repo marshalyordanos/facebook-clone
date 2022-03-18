@@ -1,0 +1,147 @@
+.login{
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 3px solid black; */
+}
+
+.login__top{
+    width: 350px;
+    /* margin: auto; */
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: -120px;
+}
+.login__top h1{
+  margin: 0;
+  padding-bottom: 10px;
+}
+.login__top h3{
+    margin: 0;
+    font-size: 23px;
+    font-weight: 400;
+}
+.login__top p{
+    padding-bottom: 15px;
+    margin: 0;
+}
+.login__top h1{
+    color:#1877F2 ;
+}
+.login__cards{
+    display: flex;
+}
+.login__card{
+    height: 170px;
+    
+}
+.login__card__icon{
+   padding-top: 70px;
+   padding-left: 60px;
+
+   font-size: 35px;
+   color: #1877F2;
+}
+.login__card__con {
+    /* margin-right: 10px ; */
+position: relative;
+    border: 1px solid rgb(169, 169, 169);
+    width: 150px;
+    /* height: 200px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
+    border-radius: 10px;
+}
+.login__card__con p{
+    border-top: 1px solid gray;
+    width: 150px;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    margin: 0;
+    padding: 17px 0;
+    border-radius: 0  0 10px 10px;
+    color:#1877F2 ;
+}
+.login__form{
+    width: 400px;
+    margin: 20px 40px 0 40px;
+}
+
+.login__formcard{
+    background-color: white;
+    box-shadow: 4px 4px 30px gray;
+    border-radius: 10px;
+    
+}
+.login__formcard form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    
+}   
+
+.login__formcard form input{
+    padding: 12px 20px ;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 7px;
+    font-size: 18px;
+    width: 310px;
+}
+.login__hr{
+    color: rgb(177, 177, 177);
+    margin: 20px;
+    width: 340px;
+    /* border: none; */
+    
+}
+.login__formcard form a:first-of-type{
+   
+}
+.login__formcard form button{
+   
+    
+    padding: 13px;
+    background-color: #36A420;
+    margin: 7px;
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+.login__formcard form button:first-of-type{
+    padding: 13px;
+    background-color: #1877F2;
+    margin: 7px;
+    font-size: 20px;
+    color: white;
+    width: 355px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+
+
+
+@media only screen and (max-width:850px) {
+    .login{
+        height: auto;
+        display: flex;
+        max-width: 1000px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+    }
+}

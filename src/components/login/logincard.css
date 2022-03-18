@@ -1,0 +1,69 @@
+
+
+
+
+.logincard{
+    margin-right: 10px;
+    position: relative;
+    top: 0;
+    border: 1px solid gray;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border-radius: 10px;
+    /* overflow: hidden; */
+}
+.logincard:hover {
+    box-shadow: 3px 3px 20px rgb(186, 186, 186);
+}
+.logincard:hover .logincard__closeicon{
+    font-size: 32px;
+    margin-top: -8px;
+    z-index: 10;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.logincard__closeicon{
+position: absolute;
+color: white;
+z-index: 10;
+/* top: 20px; */
+}
+
+.logincard__img{
+    position: relative;
+    width: 150px;
+    height: 170px;
+    overflow: hidden;
+    border-radius: 10px 10px  0 0;
+
+}
+.logincard__img img{
+  width: 300px;
+  margin-top: -15px;
+  margin-left: -70px;
+}
+.logincard__circle{
+    position: absolute;
+    width: 25px;
+    height: 25Px;
+    background-color: blue;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    right: 0PX;
+    margin-top:-7px ;
+    z-index: 1;
+    margin-right: -7px;
+}
+
+.login__cardName{
+    text-align: center;
+    /* border: 1px solid blue; */
+    height: 55px;
+    border-radius: 0 0 10px 10px;
+    line-height: 3.5;
+    background: white;
+}
